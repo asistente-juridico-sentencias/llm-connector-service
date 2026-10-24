@@ -7,8 +7,12 @@
     "test": "echo \"No tests yet...\""
   },
   "dependencies": {
-    "@azure/functions": "^4.0.0"
+    "@azure/functions": "^4.0.0",
+    "@huggingface/inference": "^4.13.32",
+    "@huggingface/transformers": "^4.3.1",
+    "@openrouter/sdk": "^1.5.3",
+    "openai": "^7.42.0",
+    "winston": "^3.19.0"
   },
-  "devDependencies": {},
   "main": "src/{index.js,functions/*.js}"
 }
